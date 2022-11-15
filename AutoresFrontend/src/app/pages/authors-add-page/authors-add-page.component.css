@@ -1,0 +1,47 @@
+.authors-add-page .add-form {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1em 0.5em;
+}
+
+.authors-add-page .add-form input {
+    display: block;
+    margin-right: 2em;
+    margin-top: 0.3em;
+    width: 13em;
+    font-size: 1em;
+}
+
+.authors-add-page > div {
+    margin-top: 0.3em;
+}
+
+.authors-add-page .buttons {
+    margin-top: 1em;
+}
+
+.authors-add-page .buttons button {
+    background-color: #7bb9f9;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.authors-add-page .buttons button:first-child {
+    margin-right: 0.5em;
+}
+
+.authors-add-page .purple {
+    color: #9f66f8;
+}
+
+.authors-add-page h1 {
+    margin: 0.2em 0;
+}
+
+.authors-add-page .red {
+    color: red;
+}

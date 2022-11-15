@@ -1,0 +1,51 @@
+.authors-list-page table, .authors-list-page td, .authors-list-page th {
+    border: 1px solid black;
+}
+
+.authors-list-page table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.authors-list-page thead tr, .authors-list-page tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.authors-list-page thead, .authors-list-page table button {
+    color: white;
+}
+
+.authors-list-page table button {
+    background-color: #ada9a2;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.authors-list-page tbody tr {
+    color: #9f66f8;
+}
+
+.authors-list-page tbody td {
+    padding: 0.5em 0.5em;
+}
+
+.authors-list-page table td button:first-child {
+    padding: 0.3em 2em;
+    margin-right: 0.5em;
+}
+
+.authors-list-page table td button:last-child {
+    padding: 0.3em 1.3em;
+}
+
+.authors-list-page div > div {
+    margin: 0.3em 0
+}
+
+.authors-list-page h1 {
+    margin: 0.2em 0;
+}
+
+.authors-list-page .purple {
+    color: #9f66f8;
+}

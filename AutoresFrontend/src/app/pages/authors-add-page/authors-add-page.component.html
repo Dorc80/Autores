@@ -1,0 +1,23 @@
+<div class="authors-add-page">
+    
+    <div><h1>Favorite authors</h1></div>
+
+    <div><a [routerLink]="['/']">Home</a></div>
+
+    <div class="purple">Add a new author:</div>
+
+    <div class="add-form">
+
+            <label for="name">Name:</label>
+            <input type="text" [(ngModel)]="author.name">
+            <div *ngIf="errorMsg" class="red">
+                {{errorMsg}}
+            </div>
+
+            <div class="buttons">
+                <button [routerLink]="['/']">Cancel</button><button (click)="createAuthor()">Submit</button>
+            </div>
+
+    </div>
+
+</div>
